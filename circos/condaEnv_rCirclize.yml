@@ -1,0 +1,6 @@
+name: circlizeR_ce
+channels :
+- conda-forge
+dependencies : 
+- r-base=4.3.2
+- r-circlize=0.4.15
