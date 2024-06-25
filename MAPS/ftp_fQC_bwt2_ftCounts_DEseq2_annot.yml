@@ -1,0 +1,64 @@
+module:
+   fastqc/0.11.9
+   samtools/1.10
+   bowtie2/2.4.1
+   subread/2.0.1
+cwdDir:
+   # "/adapt/to/the/environment/
+   ""
+script_dir:
+   "scripts/"
+pePrefix:
+   "_"
+peSuffix:
+   ""
+condaEnvDir:
+   "condaEnv/"
+genomeFna:
+   "data/CD630_genome.fasta"
+genomeIdxPrefix:
+   "cd630Idx"
+dataDir:
+   "data/"
+fastqSuff:
+   ".fastq.gz"
+fastqcDir:
+   "01_quality/"
+multiqc:
+   "02_multiqcReport/"
+trimDir:
+   "03_trimming/"
+trimSuff:
+   "_trimmed.fastq.gz"
+bwt2Dir:
+   "04_mapping_genome/"
+bwtSequencingOrientation:
+   "--fr"
+featureCountsDir:
+   "05_counts/"
+annotation:
+    "data/CD630_CDS-ncRNA.gff"
+fc_feature:
+   "CDS,ncRNA,tRNA,rRNA"
+fc_tag:
+   "gene_id"
+fc_mode:
+   "-p -s 2 -O -M --fraction --primary "
+awksc:
+   "countFormating4DEG.awk"
+st_script:
+   "template_script_DESeq2_CL.r"
+st_comparison: 
+   "functional_testData"
+st_condRef: 
+   "ctrl"
+st_condition: 
+   "wtvsctrl"
+st_dir:
+   "06_DEG/"
+st_designDir:
+   ""
+st_group:
+   "group"
+annotFile:
+   "cdiff_id_prod_cog.list"

@@ -1,0 +1,37 @@
+scripts_dir:
+  "scripts/"
+
+data_dir:
+  "testData/"
+
+allseq_file:
+  "all_seq50x2.fasta"
+
+work_dir:
+  ""
+
+env_dir:
+  "condaEnv/"
+
+eng_threshold:
+  "-10"
+
+path2TlList:
+  "translateList50x2.txt"
+
+path2PPos:
+  "plusPositions50.txt"
+
+path2MPos:
+  "minusPositions50.txt"
+
+path2gff:
+  "CD630_CDS-ncRNA.gff"
+
+path2label:
+  "labelDictFile.txt"
+
+path2symbol:
+  "cdiffDB.csv"
+
+

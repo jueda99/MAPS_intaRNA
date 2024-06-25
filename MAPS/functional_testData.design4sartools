@@ -1,0 +1,5 @@
+label	files	group
+wt1	testData_a_fc4DEG.txt	wt
+wt2	testData_b_fc4DEG.txt	wt
+ctrl1	testDataWt_a_fc4DEG.txt	ctrl
+ctrl2	testDataWt_b_fc4DEG.txt	ctrl

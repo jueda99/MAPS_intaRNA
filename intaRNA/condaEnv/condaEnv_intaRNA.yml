@@ -1,0 +1,7 @@
+name: intaRNA_ce 
+channels:
+   - conda-forge 
+   - bioconda 
+dependencies: 
+   - bioconda::intarna=3.4.0
+

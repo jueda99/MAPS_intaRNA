@@ -1,0 +1,6 @@
+channels:
+- conda-forge
+- bioconda
+dependencies:
+- python=3.7.6 # Specify python version (not required but can help with downstream conflicts)
+- fastp=0.23.4 # For sorting/filtering bam
