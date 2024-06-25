@@ -2,9 +2,11 @@
 
 Repository for the C.difficiles target prediction with intaRNA and MAPS analysis.
 
-## intaRNA
 
-### Usage
+## Usage 
+
+### intaRNA
+
 
 1 - clone the repo.
 
@@ -13,7 +15,8 @@ Repository for the C.difficiles target prediction with intaRNA and MAPS analysis
 3 - run `snakemake -c2 -s inta_smk.smk --configfile inta_smk_config.yml --use-conda`
 
 
-## MAPS
+### MAPS
+
 
 1 - clone the repo
 
@@ -22,4 +25,9 @@ Repository for the C.difficiles target prediction with intaRNA and MAPS analysis
 3 - rewrite the path/filename of `ftp_fQC_bwt2_ftCounts_DEseq2_annot.yml`, the config file for the snakefile, to your own environment.
 
 4 - run `snakemake -c2 -s ftp_fQC_bwt2_ftCounts_DEseq2_annot.smk --configfile ftp_fQC_bwt2_ftCounts_DEseq2_annot.yml --use-conda`
+
+
+### Circos plot
+
+
 
